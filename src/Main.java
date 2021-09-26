@@ -13,7 +13,7 @@ public class Main {
          */
         Scanner skanuj = new Scanner(System.in);
 
-        /*System.out.print("podaj imię : ");
+        System.out.print("podaj imię : ");
         String imie = skanuj.next();
 
         System.out.print("podaj nazwisko : ");
@@ -25,7 +25,7 @@ public class Main {
         System.out.print("podaj indeks :");
         int indeks = skanuj.nextInt();
 
-        System.out.printf("imie : %s,  Nazwisko %s, wiek : %d,  Indeks : %d,", imie , nazwisko , wiek , indeks);*/
+        System.out.printf("imie : %s,  Nazwisko %s, wiek : %d,  Indeks : %d,", imie , nazwisko , wiek , indeks);
 
 
         /*  zad.2 zadeklarować 2 zmienne typu int i wykonać na nich obliczenia arytmetyczn (+, -, *, /, %)
