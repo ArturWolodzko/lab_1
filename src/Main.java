@@ -7,6 +7,10 @@ public class Main {
         /* ćw.4 */
 
         /* zad.1 proszę dodać kilka złożonych operacji uzywając kilku operatorów arytmetycznych i logicznych */
+        int a = 12;
+        int b = 7;
+        int c = 19;
+
 
     }
 }
