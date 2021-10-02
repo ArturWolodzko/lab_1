@@ -43,6 +43,9 @@ public class Main {
         /* porównanie */
         System.out.println("(x == y) : " + (x == y)); // false
         System.out.println("(x == z) : " + (x == z)); // true
+        System.out.println("(z == y) : " + (z == y));
+        System.out.println("(z == x+y) : " + (z == x+y));
+
 
         /* nierówne */
         System.out.println("(x != y) : " + (x != y)); // true
