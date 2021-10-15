@@ -25,6 +25,8 @@ public class Main {
         System.out.println("d ^ f daje wyhnik:   "+ (d^f));
         System.out.println("d ^ e daje wynik:    "+(d ^ e));
         System.out.println("d && e daje wynik:   " + (d&&e));
+        System.out.println("d && f daje wynik:   "+ (d && f));
+
 
 
 
