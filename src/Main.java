@@ -9,6 +9,12 @@ public class Main {
         /* zad.1 podziel swój wiek przez modulo 3 i jeśli twój wiek zwraca 0 wyświetl napis "Podzielny przez 3",
          * w innym wypadku "Niepodzielny przez 3" użyj kontrukcji if else
          * */
+        int mojWiek = 0;
+        int mojWiekModulo = 0;
+
+
+
+        System.out.println("podaj wiek:");
 
 
         /* zad.2 użyj parametru trójargumentowego aby sprawdzić parzystośc nr. indeksu */
