@@ -13,7 +13,7 @@ public class Main {
 
         System.out.println("a == b daje wynik:  "   + (a == b ));
         System.out.println("a + b daje wynik:  " + (a + b));
-        System.out.println("a && b daje wynik:  " + (a && b));
+        System.out.println("a & b daje wynik:  " + (a & b));
 
 
     }
