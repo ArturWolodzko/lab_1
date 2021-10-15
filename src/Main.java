@@ -16,5 +16,20 @@ public class Main {
         System.out.println("a & b daje wynik:  " + (a & b));
 
 
+        boolean d = true;
+        boolean e = false;
+        boolean f = true;
+
+        System.out.println("d && f daje wynik:   " + (d && f) );
+        System.out.println("d || f daje wynik:   "+ (d || f));
+        System.out.println("d ^ f daje wyhnik:   "+ (d^f));
+        System.out.println("d ^ e daje wynik:    "+(d ^ e));
+        System.out.println("d && e daje wynik:   " + (d&&e));
+
+
+
+
+
+
     }
 }
