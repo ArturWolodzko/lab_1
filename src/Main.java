@@ -11,7 +11,9 @@ public class Main {
         int b = 7;
         int c = 19;
 
-        System.out.println("a == b": + (a == b));
+        System.out.println("a == b daje wynik:  "   + (a == b ));
+        System.out.println("a + b daje wynik:  " + (a + b));
+        System.out.println("a && b daje wynik:  " + (a && b));
 
 
     }
