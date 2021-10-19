@@ -53,8 +53,8 @@ public class Main {
         else{
             System.out.println("nieparzysty");
         }
-*/
-       /* int wiek = 0;
+
+        int wiek = 0;
         boolean mlody;
         Scanner skanuj = new Scanner(System.in);
 
