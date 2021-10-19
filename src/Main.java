@@ -29,7 +29,14 @@ public class Main {
         System.out.println("wynik dodawania: " + wynik);
         System.out.println("wynik odejmowania :" + wynik2);
         System.out.println("wynik mnożenia:" + wynik3);
-        System.out.println("wynik dzielenia:" + wynik4);
+        System.out.println("wynik dzielenia:\n" + wynik4);
+
+
+        int artur = 20 , basia = 21;
+        int wynikWieku1 = basia - artur;
+        int wynikWieku2 = artur + basia;
+        System.out.println("róznica wieku:   " + wynikWieku1);
+        System.out.println("suma wieku:    \n" + wynikWieku2);
 
 
         Double x = 2.45, y = 3.56;
@@ -41,6 +48,8 @@ public class Main {
         System.out.println("wynik odejmowania wynosi:" + zmienna1);
         System.out.println("wynik mnożenia wynosi "+  zmienna2);
         System.out.printf("wynik dzielenia wynosi:%10.4f,\n mnożenie wynosi:%10.2f" , zmienna3 , zmienna2);
+
+
 
 
     }
