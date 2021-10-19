@@ -25,7 +25,7 @@ public class Main {
         System.out.print("podaj indeks :");
         int indeks = skanuj.nextInt();
 
-        System.out.printf("imie : %s,  Nazwisko %s, wiek : %d,  Indeks : %d,", imie , nazwisko , wiek , indeks);
+        System.out.printf("imie : %s,  Nazwisko %s, wiek : %d,  Indeks : %d,\n", imie , nazwisko , wiek , indeks);
 
 
         /*  zad.2 zadeklarować 2 zmienne typu int i wykonać na nich obliczenia arytmetyczn (+, -, *, /, %)
@@ -37,9 +37,12 @@ public class Main {
         System.out.print("podaj drugą liczbe:");
         int druga = skanuj.nextInt();
 
-        int dodawanie = pierwsza + druga ;
-        int odejmowanie = pierwsza - druga ;
-        int mnozenie = pierwsza * druga ;
+        System.out.println("podaj trzecią liczbe:");
+        int trzecia = skanuj.nextInt();
+
+        int dodawanie = pierwsza + druga + trzecia ;
+        int odejmowanie = pierwsza - druga + trzecia;
+        int mnozenie = pierwsza * druga * trzecia;
         int dzielenie = pierwsza / druga;
         System.out.println("wynik dodawania wynosi : " + dodawanie);
         System.out.println("wynik odejmowania wynosi :" + odejmowanie);
