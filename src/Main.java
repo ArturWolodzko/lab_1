@@ -69,7 +69,7 @@ public class Main {
 
 
 
-        Scanner skan = new Scanner(System.in);
+       /* Scanner skan = new Scanner(System.in);
         String imie;
 
         System.out.println("podaj imię:");
@@ -78,7 +78,25 @@ public class Main {
             System.out.println("dobry gosc");
         }else {
             System.out.println("nie dobry");
+        }*/
+
+        /*Scanner skan = new Scanner(System.in);
+        String nazwa;
+
+        System.out.println("podaj marke samochodu:");
+        nazwa = skan.nextLine();
+        if (nazwa.equals("mercedes")==true){
+            System.out.println("Bardzo dobry niemiecki samochód");}
+        else if(nazwa.equals("vw")==true){
+            System.out.println("dobry niemiecki samochoód");
         }
+        else if(nazwa.equals("bmw")==true){
+            System.out.println("drogi niemiecki samochód");
+        }
+        else{
+            System.out.println("nie kupuj tego badziewia");
+        }*/
+
 
 
 
@@ -88,6 +106,43 @@ public class Main {
 
         /* zad.3 wpisz z klawiatury liczbę zmiennoprzecinkową (użyj klasy Scanner z poprzednich ćwiczeń)
          * i stwórz konstrukcję else if z dowolnymi komunikatami */
+
+
+
+        /*Scanner skan = new Scanner(System.in);
+        double liczba;
+
+        System.out.println("podaj liczbę zmiennoprzecinkową");
+        liczba = skan.nextDouble();
+        if (liczba > 3 ){
+            System.out.println("liczba jest większa od 3");
+        }else if (liczba < 3) {
+            System.out.println("liczba jest mniejsza od 3");
+        }*/
+
+
+
+
+        Scanner skan = new Scanner(System.in);
+        int a;
+        int odpowiedz;
+        do
+        {
+
+
+            System.out.println("podaj mase pojazdu");
+            a = skan.nextInt();
+            if ((500 <= a) & (a <= 699)) {
+                System.out.println("wypłać klientowi 300 zł\n");
+            } else if ((700 <= a) & (a <= 899)) {
+                System.out.println("wypłać klientowi 400 zł\n");
+            } else if ((900 <= a) & (a <= 1100)) {
+                System.out.println("wypłać klientowi 500 zł\n");
+            }
+            System.out.println("Czy chcesz powtórzyć 1 = Tak 2 = Nie");
+            odpowiedz = skan.nextInt();
+        }while (odpowiedz  == 1);
+
 
 
 
